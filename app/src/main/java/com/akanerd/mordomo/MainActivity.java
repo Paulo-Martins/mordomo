@@ -10,6 +10,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
+import android.widget.Toast;
+
+import javax.xml.datatype.Duration;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -46,6 +49,12 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void but1(View view) {
+        String texto = "texto 1";
+        Toast toast = Toast.makeText(getApplicationContext(), texto, Toast.LENGTH_LONG);
+        toast.show();
     }
 
     /**
