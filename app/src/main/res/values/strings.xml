@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mordomo</string>
+    <string name="hello_world">Mordomo ao seu Dispor</string>
+    <string name="action_settings">Settings</string>
+    <string name="Led2">Led 2</string>
+    <string name="Led1">Led 1</string>
+
+</resources>
